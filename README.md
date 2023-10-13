@@ -36,10 +36,10 @@ If you downloaded the pre-compiled files, simply run the `dns_sinky.exe` file.
 
 ## Configuration
 
-The DNS sinkhole can be configured by changing the keys in the `config.json` file.
+The DNS sinkhole can be configured by changing the values in the `config.json` file.
 
 * You can change the urls of the DNS blacklists by changing the `urls` field. The default blacklists are from [firebog.net](https://firebog.net/) where the ticked lists are used.
 
-* You can automatically update the lists on startup by activating the `update_on_startup` key. The default setting is `false`.
+* You can automatically update the lists on startup by activating the `update_on_startup` value. The default setting is `false`.
 
-* You can change the upstream DNS server with the `upstream_dns` key. The default address is `1.1.1.1` by [Cloudflare](https://en.wikipedia.org/wiki/1.1.1.1).
+* You can change the upstream DNS server with the `upstream_dns` value. The default address is `1.1.1.1` by [Cloudflare](https://en.wikipedia.org/wiki/1.1.1.1).
